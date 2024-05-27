@@ -41,6 +41,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    
+</dependency>
 	</dependencies>
 
 	<build>
@@ -58,6 +63,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-database-k8s</finalName>
 	</build>
 
 </project>
