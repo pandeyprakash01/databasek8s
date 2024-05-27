@@ -12,7 +12,7 @@ public class SpringbootDatabaseK8sApplication {
 
 	@GetMapping
 	public String helloWorld() {
-		return "Hi THis is Prakash";
+		return "Hi THis is Prakash with update";
 	}
 	
 	public static void main(String[] args) {
